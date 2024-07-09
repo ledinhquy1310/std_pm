@@ -1,0 +1,58 @@
+h3 {
+    margin-left: 185px;
+    margin-top: 20px;
+}
+
+.small-box {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 220px;
+    margin-right: 10px;
+}
+
+.small-box:hover {
+    transform: scale(1.03);
+}
+
+.small-box .inner {
+    padding: 20px;
+}
+
+.small-box .inner h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.small-box .inner p {
+    margin: 10px 0 0;
+}
+
+.small-box .icon {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+}
+
+.small-box .icon i {
+    font-size: 40px;
+    color: #fff;
+}
+
+.small-box .small-box-footer {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.small-box .small-box-footer:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

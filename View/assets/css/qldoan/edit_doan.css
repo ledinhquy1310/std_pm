@@ -1,0 +1,67 @@
+form {
+max-width: 700px;
+margin: 20px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #f9f9f9;
+}
+
+.file-input {
+display: none;
+}
+
+.file-label {
+background-color: #f0f0f0;
+margin: 10px;
+width: 150px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.file-container {
+display: flex;
+align-items: center;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+box-sizing: border-box;
+}
+
+button[type="submit"] {
+display: inline-block;
+padding: 10px 20px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button[type="submit"]:hover {
+background-color: #45a049;
+}
+
+form h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.error-message {
+color: red;
+font-size: 14px;
+}
